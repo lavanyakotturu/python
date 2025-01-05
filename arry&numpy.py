@@ -1,4 +1,4 @@
-'''
+
 from array import *
 vals=array('i',[1,2,5,-8,10])
 #print(vals)
@@ -12,14 +12,14 @@ vals=array('i',[1,2,5,-8,10])
 newarr=array(vals.typecode,(a*a for a in vals))
 for e in newarr:
     print(e)
-    '''
+    
 
 
 
 
 #user input in array:
 
-'''
+
 from array import *
 arr=array('i',[])
 n=int(input("enter length of the array"))
@@ -35,11 +35,10 @@ for i in arr:
         break
     k+=1
     print(arr.index(val))
-''' 
 
 
 #ways of creating array:
-'''
+
 from numpy import *
 #arr=array([1,3,5])
 #print(arr.dtype)
@@ -50,12 +49,12 @@ from numpy import *
 #arr=zeros(5)
 #arr=ones(5)
 print(arr)
-'''
+
 
 
 #copying in array:
 
-'''
+
 from numpy import *
 arr1=array([1,2,3,5,7])
 #arr=arr+5
@@ -92,7 +91,7 @@ print(arr1)
 print(arr2)                    #diff values and diff address
 print(id(arr1))
 print(id(arr2))
-'''
+
 
 
 
